@@ -1,0 +1,29 @@
+[  
+   {  
+      "testCaseName":"testcase1",
+      "testCaseDescription":"description",
+      "environment":"chrome",
+      "initialURL":"https://github.com/milad-milix",
+      "expectedResult":[  
+         {  
+            "pageTitle":"milad-milix (Milad Zaheri)"
+         }
+      ],
+      "elements":{  
+         "profileMenu":{  
+            "type":"html",
+            "pathType":"class",
+            "path":"HeaderNavlink name mt-1",
+            "action":"click",
+            "value":""
+         },
+         "profileLink":{  
+            "type":"html",
+            "pathType":"xpath",
+            "path":"//*[@id="user-links"]/li[3]/details/ul/li[3]/a",
+            "action":"click",
+            "value":""
+         },
+      }
+   },
+]
