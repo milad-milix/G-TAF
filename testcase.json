@@ -20,7 +20,7 @@
          "profileLink":{  
             "type":"html",
             "pathType":"xpath",
-            "path":"//*[@id="user-links"]/li[3]/details/ul/li[3]/a",
+            "path":"//*[@id='user-links']/li[3]/details/ul/li[3]/a",
             "action":"click",
             "value":""
          },
