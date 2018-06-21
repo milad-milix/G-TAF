@@ -24,6 +24,13 @@
             "action":"click",
             "value":""
          },
+         "profileLink2":{  
+            "type":"action",
+            "pathType":"xpath",
+            "path":"//*[@id='user-links']/li[3]/details/ul/li[3]/a",
+            "action":"click",
+            "value":""
+         },
       }
    },
 ]
